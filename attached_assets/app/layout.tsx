@@ -1,6 +1,6 @@
 
 export const metadata = {
-  title: "Diego Alves - Análise de Dados",
+  title: "Diego Oliveira - Análise de Dados",
   description: "Soluções em dados para farmácias, clínicas e pequenos comércios",
 };
 

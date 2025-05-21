@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <div className="text-2xl font-bold mb-4">Diego Alves</div>
+            <div className="text-2xl font-bold mb-4">Diego Oliveira</div>
             <p className="text-primary-100 mb-6">
               Transformando dados em decisões estratégicas para pequenos negócios.
             </p>

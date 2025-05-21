@@ -23,7 +23,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <span className="text-primary font-bold text-xl">Diego Alves</span>
+            <span className="text-primary font-bold text-xl">Diego Oliveira</span>
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="#inicio" className="text-neutral-700 hover:text-primary font-medium transition-colors">Início</a>

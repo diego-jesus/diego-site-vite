@@ -24,7 +24,7 @@ export default function AboutSection() {
           </div>
           <div>
             <h2 className="text-3xl font-bold text-neutral-800 sm:text-4xl mb-6">
-              Sobre Diego Alves
+              Sobre Diego Oliveira
             </h2>
             <p className="text-lg text-neutral-600 mb-6">
               Especialista em análise de dados com mais de 8 anos de experiência, ajudando pequenos negócios a tomarem decisões mais assertivas através do uso estratégico de seus dados.
