@@ -3,17 +3,17 @@ export default function ProcessSection() {
     {
       number: 1,
       title: "Diagnóstico Inicial",
-      description: "Realizamos uma análise completa do seu negócio para identificar oportunidades de melhoria, compreender seus objetivos e mapear as fontes de dados disponíveis."
+      description: "Realizamos uma análise completa do seu negócio utilizando SQL e BigQuery para identificar oportunidades de melhoria, compreender seus objetivos e mapear as fontes de dados disponíveis."
     },
     {
       number: 2,
       title: "Implementação",
-      description: "Desenvolvemos e implementamos soluções personalizadas de análise de dados, incluindo dashboards interativos, sistemas de monitoramento e relatórios automatizados."
+      description: "Desenvolvemos e implementamos dashboards no Looker Studio e soluções personalizadas de análise de dados, incluindo painéis interativos e relatórios automatizados para seu negócio."
     },
     {
       number: 3,
       title: "Acompanhamento",
-      description: "Oferecemos suporte contínuo, treinamento para sua equipe e reuniões periódicas para análise dos resultados, garantindo que você aproveite ao máximo os insights gerados."
+      description: "Oferecemos suporte contínuo, consultoria estratégica e reuniões periódicas para análise dos resultados, garantindo que seu negócio aproveite ao máximo os insights gerados pelos dados."
     }
   ];
 
