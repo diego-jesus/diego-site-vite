@@ -18,11 +18,10 @@ export default function HeroSection() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
           <div>
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6">
-              Transforme seus Dados em <span className="text-primary-200">Decisões Inteligentes</span>
+              Análise de Dados para <span className="text-primary-200">Pequenos Negócios</span>
             </h1>
             <p className="text-xl text-primary-100 mb-8">
-              Consultoria especializada em análise de dados para pequenos negócios.
-              Descubra insights valiosos que impulsionarão seu crescimento.
+              Consultoria especializada em transformar dados em decisões estratégicas para farmácias, clínicas e comércios locais com soluções acessíveis e eficientes.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Button

@@ -1,39 +1,39 @@
-import { Store, Hospital, Torus, LineChart } from "lucide-react";
+import { Store, Pill, HospitalSquare, LineChart, ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function ClientsSection() {
   const clientTypes = [
     {
-      icon: <Store className="h-16 w-16" />,
-      title: "Mercadinhos",
-      description: "Otimize seu estoque, reduza perdas e aumente as vendas com análises personalizadas para o seu pequeno varejo.",
+      icon: <Pill className="h-16 w-16" />,
+      title: "Farmácias",
+      description: "Otimize seu estoque, identifique tendências de venda e aumente sua rentabilidade com análises personalizadas para o seu negócio.",
       kpis: [
         "Giro de estoque por categoria",
-        "Margem de contribuição por produto",
-        "Taxa de ruptura de estoque",
-        "Análise de venda cruzada"
+        "Produtos mais rentáveis",
+        "Eficiência promocional",
+        "Sazonalidade de vendas"
       ]
     },
     {
-      icon: <Hospital className="h-16 w-16" />,
-      title: "Clínicas Médicas",
-      description: "Melhore a gestão de pacientes, otimize agendamentos e aumente a eficiência operacional da sua clínica.",
+      icon: <HospitalSquare className="h-16 w-16" />,
+      title: "Clínicas",
+      description: "Melhore a gestão de pacientes, otimize agendamentos e aumente a eficiência operacional da sua clínica com dados precisos.",
       kpis: [
-        "Taxa de ocupação por médico",
+        "Taxa de ocupação de agenda",
         "Tempo médio de atendimento",
         "Taxa de retorno de pacientes",
-        "Lucratividade por procedimento"
+        "Eficiência operacional"
       ]
     },
     {
-      icon: <Torus className="h-16 w-16" />,
-      title: "Clínicas Odontológicas",
-      description: "Aumente a rentabilidade, reduza faltas e aprimore a experiência dos pacientes em sua clínica odontológica.",
+      icon: <ShoppingBag className="h-16 w-16" />,
+      title: "Comércios Locais",
+      description: "Conheça melhor seus clientes, identifique oportunidades de crescimento e tome decisões mais assertivas para seu negócio.",
       kpis: [
-        "Taxa de conversão de orçamentos",
-        "Valor médio por atendimento",
-        "Taxa de absenteísmo",
-        "Eficiência de uso de equipamentos"
+        "Perfil de compra dos clientes",
+        "Análise de sazonalidade",
+        "Efetividade promocional",
+        "Gestão de estoque inteligente"
       ]
     }
   ];

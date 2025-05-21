@@ -6,20 +6,12 @@ export default function AboutSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
           <div className="mb-12 lg:mb-0">
-            <div className="bg-primary-100 rounded-2xl p-2 inline-block">
-              <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-xl bg-primary-200 flex items-center justify-center">
-                <svg 
-                  className="text-primary-300 w-48 h-48"
-                  viewBox="0 0 24 24" 
-                  fill="none" 
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 5C13.66 5 15 6.34 15 8C15 9.66 13.66 11 12 11C10.34 11 9 9.66 9 8C9 6.34 10.34 5 12 5ZM12 19.2C9.5 19.2 7.29 17.92 6 15.98C6.03 13.99 10 12.9 12 12.9C13.99 12.9 17.97 13.99 18 15.98C16.71 17.92 14.5 19.2 12 19.2Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </div>
+            <div className="bg-primary-100 rounded-2xl p-2">
+              <img 
+                src="/images/diego-profile.jpg" 
+                alt="Diego Oliveira - Especialista em Análise de Dados" 
+                className="w-64 h-64 sm:w-80 sm:h-80 rounded-xl object-cover object-center"
+              />
             </div>
           </div>
           <div>
@@ -27,7 +19,10 @@ export default function AboutSection() {
               Sobre Diego Oliveira
             </h2>
             <p className="text-lg text-neutral-600 mb-6">
-              Especialista em análise de dados com mais de 8 anos de experiência, ajudando pequenos negócios a tomarem decisões mais assertivas através do uso estratégico de seus dados.
+              Sou Diego Oliveira, especialista em análise de dados com formação em Ciência de Dados pela IBMR e atualmente cursando Business Intelligence pela UVA.
+            </p>
+            <p className="text-lg text-neutral-600 mb-6">
+              Minha atuação é direcionada especialmente para pequenos negócios, como farmácias, clínicas e comércios locais, ajudando a transformar dados em decisões que geram resultado. Meu objetivo é levar inteligência de dados para empresas que muitas vezes não têm acesso a soluções sofisticadas, mas que podem se beneficiar — e muito — de uma análise estratégica e acessível.
             </p>
             <div className="space-y-4 mb-8">
               <div className="flex items-start">
@@ -36,7 +31,7 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <h4 className="font-medium text-neutral-800">Formação</h4>
-                  <p className="text-neutral-600">Mestrado em Ciência de Dados pela UFRJ e especialização em Business Intelligence pela FGV.</p>
+                  <p className="text-neutral-600">Ciência de Dados pela IBMR e cursando Business Intelligence pela UVA.</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -45,7 +40,7 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <h4 className="font-medium text-neutral-800">Experiência</h4>
-                  <p className="text-neutral-600">Consultor de empresas de varejo e clínicas de saúde, desenvolvendo soluções de dados que geraram mais de R$ 10 milhões em economia e aumento de receita.</p>
+                  <p className="text-neutral-600">Consultor especializado em pequenos e médios negócios, transformando dados em estratégias eficientes e resultados concretos.</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -54,7 +49,7 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <h4 className="font-medium text-neutral-800">Especialidades</h4>
-                  <p className="text-neutral-600">Dashboards interativos, análise preditiva, segmentação de clientes e otimização de processos baseados em dados.</p>
+                  <p className="text-neutral-600">SQL, BigQuery, Looker Studio e Machine Learning com BigQuery ML para criar análises precisas, painéis claros e automações sob medida.</p>
                 </div>
               </div>
             </div>

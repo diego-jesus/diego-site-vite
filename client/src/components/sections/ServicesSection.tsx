@@ -2,39 +2,40 @@ import {
   FileCode, 
   Search, 
   Users, 
-  CalendarCheck, 
-  GraduationCap, 
+  Database, 
+  BarChart4, 
   Lightbulb,
   CheckIcon,
-  ArrowRight
+  ArrowRight,
+  Bot
 } from "lucide-react";
 
 export default function ServicesSection() {
   const services = [
     {
       icon: <FileCode className="h-5 w-5" />,
-      title: "Implementação de Dashboards",
-      description: "Desenvolvimento de painéis interativos personalizados que oferecem visualização clara e objetiva dos indicadores mais importantes para seu negócio.",
+      title: "Dashboards no Looker Studio",
+      description: "Criação de painéis interativos e acessíveis que transformam dados complexos em visualizações claras para pequenos negócios tomarem decisões com confiança.",
       features: [
-        "Dashboards interativos e responsivos",
-        "Atualização em tempo real",
+        "Painéis intuitivos e de fácil compreensão",
+        "Atualização automática de dados",
         "Indicadores personalizados para seu negócio"
       ]
     },
     {
-      icon: <Search className="h-5 w-5" />,
-      title: "Análise de Vendas e Estoque",
-      description: "Identificação de padrões de consumo, produtos mais rentáveis e otimização de estoque para evitar perdas e maximizar lucros.",
+      icon: <Database className="h-5 w-5" />,
+      title: "Análises com SQL e BigQuery",
+      description: "Extração de insights valiosos dos seus dados utilizando SQL e BigQuery para identificar tendências, oportunidades e áreas de melhoria no seu negócio.",
       features: [
-        "Análise de curva ABC de produtos",
-        "Previsão de demanda",
-        "Controle de ruptura de estoque"
+        "Consultas personalizadas para seu negócio",
+        "Integração com diversas fontes de dados",
+        "Análises avançadas com resultados práticos"
       ]
     },
     {
       icon: <Users className="h-5 w-5" />,
       title: "Segmentação de Clientes",
-      description: "Criação de perfis de clientes para direcionamento estratégico de campanhas e ofertas personalizadas que aumentam a conversão.",
+      description: "Identificação de padrões de comportamento para criar grupos de clientes com características similares, permitindo estratégias direcionadas e eficientes.",
       features: [
         "Identificação de perfis de consumo",
         "Análise de recência, frequência e valor",
@@ -42,32 +43,32 @@ export default function ServicesSection() {
       ]
     },
     {
-      icon: <CalendarCheck className="h-5 w-5" />,
-      title: "Gestão de Agendamentos",
-      description: "Otimização do sistema de agendamentos para reduzir faltas, aumentar a eficiência e melhorar a experiência do cliente.",
+      icon: <BarChart4 className="h-5 w-5" />,
+      title: "Análise de Performance",
+      description: "Avaliação completa do desempenho do seu negócio, comparando métricas atuais com períodos anteriores e identificando fatores que impactam seus resultados.",
       features: [
-        "Análise de ociosidade e picos de demanda",
-        "Redução de taxa de no-show",
-        "Otimização de disponibilidade de profissionais"
+        "Comparativos de desempenho",
+        "Identificação de gargalos operacionais",
+        "Recomendações baseadas em dados"
       ]
     },
     {
-      icon: <GraduationCap className="h-5 w-5" />,
-      title: "Treinamento e Capacitação",
-      description: "Treinamento da sua equipe para utilização eficiente das ferramentas de análise e interpretação correta dos dados.",
+      icon: <Bot className="h-5 w-5" />,
+      title: "Machine Learning com BigQuery ML",
+      description: "Utilização de modelos preditivos para antecipar tendências, comportamentos e resultados, ajudando seu negócio a se preparar para o futuro.",
       features: [
-        "Workshops práticos",
-        "Treinamento de ferramentas específicas",
-        "Consultoria contínua"
+        "Previsão de demanda",
+        "Detecção de anomalias",
+        "Modelagem preditiva acessível"
       ]
     },
     {
       icon: <Lightbulb className="h-5 w-5" />,
       title: "Consultoria Estratégica",
-      description: "Assessoria contínua para interpretação dos dados e desenvolvimento de planos de ação baseados em insights relevantes.",
+      description: "Orientação personalizada para pequenos e médios empreendedores que desejam utilizar dados para impulsionar o crescimento de seus negócios.",
       features: [
-        "Reuniões de análise periódicas",
-        "Planos de ação baseados em dados",
+        "Diagnóstico de maturidade analítica",
+        "Planos de ação práticos e viáveis",
         "Acompanhamento de resultados"
       ]
     }
