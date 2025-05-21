@@ -200,7 +200,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-medium text-neutral-800">Email</h4>
-                    <p className="text-neutral-600">contato@diegoalves.com.br</p>
+                    <p className="text-neutral-600">diegoliveira634@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -209,7 +209,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-medium text-neutral-800">Telefone</h4>
-                    <p className="text-neutral-600">(21) 98765-4321</p>
+                    <p className="text-neutral-600">(21) 97300-2242</p>
                   </div>
                 </div>
                 <div className="flex items-start">

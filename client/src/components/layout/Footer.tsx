@@ -68,7 +68,7 @@ export default function Footer() {
         
         <div className="mt-12 pt-8 border-t border-primary-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-primary-300 text-sm">
-            &copy; {currentYear} Diego Alves - Consultoria em Análise de Dados. Todos os direitos reservados.
+            &copy; {currentYear} Diego Oliveira - Consultoria em Análise de Dados. Todos os direitos reservados.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-8">
             <a href="#" className="text-primary-300 hover:text-white text-sm transition-colors">Política de Privacidade</a>
