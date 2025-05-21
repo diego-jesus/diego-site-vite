@@ -28,7 +28,7 @@ export default function ClientsSection() {
     {
       icon: <ShoppingBag className="h-16 w-16" />,
       title: "Comércios Locais",
-      description: "Conheça melhor seus clientes, identifique oportunidades de crescimento e tome decisões mais assertivas para seu negócio.",
+      description: "Conheça melhor seus clientes e identifique oportunidades com acompanhamento contínuo para o desenvolvimento do seu negócio.",
       kpis: [
         "Perfil de compra dos clientes",
         "Análise de sazonalidade",
