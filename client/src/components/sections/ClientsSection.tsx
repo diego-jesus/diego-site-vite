@@ -1,4 +1,4 @@
-import { Store, Pill, HospitalSquare, LineChart, ShoppingBag } from "lucide-react";
+import { Store, Pill, Hospital, LineChart, ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function ClientsSection() {
@@ -15,7 +15,7 @@ export default function ClientsSection() {
       ]
     },
     {
-      icon: <HospitalSquare className="h-16 w-16" />,
+      icon: <Hospital className="h-16 w-16" />,
       title: "Clínicas",
       description: "Melhore a gestão de pacientes, otimize agendamentos e aumente a eficiência operacional da sua clínica com dados precisos.",
       kpis: [
