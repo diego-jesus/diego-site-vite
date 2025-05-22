@@ -1,5 +1,5 @@
 Diego Oliveira — Plataforma de Análise de Dados
-Este é o site profissional de Diego Oliveira, especialista em análise de dados com foco em soluções para farmácias, clínicas e pequenos comércios. O projeto combina performance, design moderno e estrutura preparada para escalar, com backend e frontend integrados.
+Este é o site profissional fictício de Diego Oliveira, especialista em análise de dados com foco em soluções para farmácias, clínicas e pequenos comércios. O projeto combina performance, design moderno e estrutura preparada para escalar, com backend e frontend integrados.
 
 🚀 Funcionalidades
 Interface moderna e responsiva
